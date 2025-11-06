@@ -1,0 +1,14 @@
+.retro-background {
+  padding: 12px 22px;
+  font-family: "Press Start 2P", sans-serif;
+  border: 3px solid black;
+  background: #ffdf6b;
+  cursor: pointer;
+  box-shadow: 4px 4px 0 black;
+  transition: 0.1s;
+}
+
+.retro-background:active {
+  box-shadow: 2px 2px 0 black;
+  transform: translate(2px, 2px);
+}

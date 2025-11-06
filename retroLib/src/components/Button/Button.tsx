@@ -2,9 +2,9 @@ import React from "react";
 import "./Button.css";
 
 type ButtonProps = {
-  children: React.ReactNode;   // text inside the button
-  onClick?: () => void;        // optional click function
-  disabled?: boolean;          // disable button
+  children: React.ReactNode;
+  onClick?: () => void;
+  disabled?: boolean;         
 };
 
 export const Button: React.FC<ButtonProps> = ({ children, onClick, disabled }) => {
