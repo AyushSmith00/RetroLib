@@ -1,10 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
-
-
 .retro-root {
-  font-family: "Press Start 2P", monospace;
-  background: #9bbc0f;
-  min-height: 100vh;
-  padding: 20px;
-  color: #0f380f;
+  width: 100vw;
+  height: 100vh;
 }
+
+.retro-root.crt {
+  background: radial-gradient(circle, #111 0%, #000 100%);
+  image-rendering: pixelated;
+  position: relative;
+}
+
+.retro-root.crt::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: repeating-linear-gradient(
+    transparent 0px,
+    transparent 2px,
+    rgba(255,255,255,0.04) 2px,
+    rgba(255,255,255,0.04) 3px
+  );
+  pointer-events: none;
+}
+

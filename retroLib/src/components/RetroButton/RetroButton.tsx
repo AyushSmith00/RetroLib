@@ -9,7 +9,7 @@ type RetroButtonProps = {
 }
 
 export const RetroButton: React.FC<RetroButtonProps> = ({ children, onClick }) => {
-  const { palette } = useContext(RetroThemeContext); // <— reads current theme
+  const { palette } = useContext(RetroThemeContext);
 
   return (
     <button className={`retro-btn ${palette}`} onClick={onClick}>
