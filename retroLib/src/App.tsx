@@ -1,13 +1,11 @@
-import { Button } from "./components/Button/Button";
-import {Choosebackground } from "./components/Button/Choosebackground";
+import { TheRetro } from "./main/TheRetro";
+import { RetroButton } from "./components/RetroButton/RetroButton";
 
 function App() {
   return (
-    <div>
-      <Button onClick={() => alert("the button has been clicked boy")}>Click Me</Button>
-      <Choosebackground>Change The Background</Choosebackground>
-
-    </div>
+    <TheRetro>
+      <RetroButton>Start game</RetroButton>
+    </TheRetro>
   );
 }
 
