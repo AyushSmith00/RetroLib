@@ -1,0 +1,40 @@
+/* NAVBAR (matches retro-btn style) */
+.retro-nav {
+  width: 100%;
+  padding: 16px 28px;
+  background: #000;
+  border-bottom: 4px solid #00ff57;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  box-shadow: 0 0 12px #00ff57;
+  image-rendering: pixelated;
+  font-family: 'Press Start 2P', monospace;
+  color: #00ff57;
+}
+
+/* Navbar links */
+.retro-nav-links {
+  display: flex;
+  gap: 32px;
+}
+
+.retro-nav a {
+  color: #00ff57;
+  text-decoration: none;
+  font-size: 12px;
+  text-transform: uppercase;
+  transition: 0.12s;
+  padding: 6px 8px;
+  border: 2px solid transparent;
+}
+
+.retro-nav a:hover {
+  background: #00ff57;
+  color: #000;
+  border-color: #00ff57;
+  box-shadow: 0 0 10px #00ff57;
+  transform: scale(1.03);
+}

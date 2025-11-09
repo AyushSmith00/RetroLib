@@ -1,6 +1,9 @@
 .retro-root {
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;  /* fills entire screen even with navbar */
+  background: #c4c4c4; /* or your theme color */
+  image-rendering: pixelated;
+  overflow: hidden;
 }
 
 .retro-root.crt {
