@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.hero-section {
+  height: 100vh;
+  width: 100%;
+  background: #0b0c10; /* deep retro black */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero-title {
+  font-family: "Press Start 2P", monospace;
+  font-size: 3rem;
+  color: #00fff7;
+  text-shadow: 0 0 10px #00fff7, 0 0 25px #00fff7, 0 0 40px #00fff7;
+  margin-bottom: 20px;
+}
+
+.hero-subtitle {
+  font-size: 1.2rem;
+  font-family: monospace;
+  color: #ff2efc;
+  opacity: 0.85;
+  text-shadow: 0 0 10px #ff2efc;
+}
