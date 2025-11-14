@@ -1,17 +1,15 @@
 .retro-btn {
-  font-family: 'Press Start 2P', monospace;
-  font-size: 14px;
+  font: 14px "Press Start 2P", monospace;
   padding: 14px 24px;
-  cursor: pointer;
   text-transform: uppercase;
+  cursor: pointer;
   image-rendering: pixelated;
 
   background: #000;
   color: #00ff57;
   border: 4px solid #00ff57;
-
   box-shadow: 0 0 12px #00ff57;
-  transition: 0.12s;
+  transition: .12s;
 }
 
 .retro-btn:hover {
@@ -22,6 +20,6 @@
 }
 
 .retro-btn:active {
-  transform: scale(0.98);
+  transform: scale(.98);
 }
 
